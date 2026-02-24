@@ -1,0 +1,24 @@
+{
+  "name": "markup-to-x-articles",
+  "version": "1.0.0",
+  "description": "Convert markdown articles from GitHub into X Article format for copy-pasting",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/cli.ts",
+    "list": "tsx src/cli.ts --list",
+    "convert": "tsx src/cli.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ProfessorSeb/markup-to-x-articles"
+  },
+  "keywords": ["markdown", "x", "twitter", "articles", "converter"],
+  "author": "Sebastian Maniak",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.3.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
